@@ -41,8 +41,8 @@ This script orchestrates the training process.
 1.  **Install dependencies:**
     ```bash
     pip install torch numpy imageio opencv-python
-    The dataset is nerf_synthetic, can be downloaded in https://drive.google.com/drive/folders/1cK3UDIJqKAAm7zyrxRYVFJ0BRMgrwhh4
     ```
+    The dataset is nerf_synthetic, can be downloaded in https://drive.google.com/drive/folders/1cK3UDIJqKAAm7zyrxRYVFJ0BRMgrwhh4
 2.  **Download the data:**
     The code is currently configured to use the `lego` dataset from the `nerf_synthetic` dataset. Make sure this dataset is available in the `NeRF/nerf_synthetic/lego` directory.
 3.  **Start training:**
